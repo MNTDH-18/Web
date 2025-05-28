@@ -8,22 +8,32 @@ Welcome to the **Wizarding World** — a creative, PHP-based web project inspire
 
 ```
 Wizarding World/
-├── assets/
-│   ├── css/
-│   │   └── styles.css
-│   ├── js/
-│   │   └── script.js
-│   └── images/
+├── images/
+│   └── (item images used in items.php)
+├── dashboard.php
+├── db_config.php
 ├── index.php
-├── about.php
-├── contact.php
-└── README.md
+├── items.php
+├── login.php
+├── logout.php
+├── register.php
+├── scripts.js
+├── spells.php
+├── styles.css
+├── wizarding_world.sql
 ```
 
-- `assets/`: Static resources (stylesheets, scripts, and images)
+- `dashboard.php`: Protected user dashboard after login
+- `db_config.php`: Database configuration file
 - `index.php`: Homepage of the website
-- `about.php`: About the wizarding world
-- `contact.php`: Contact form or information page
+- `items.php`: Page showcasing wizarding items
+- `login.php`: User login form
+- `logout.php`: Handles user logout
+- `register.php`: User registration form
+- `scripts.js`: JavaScript for interactivity
+- `spells.php`: List or interaction with spells
+- `styles.css`: Site-wide CSS styles
+- `wizarding_world.sql`: SQL script to create and populate the database
 
 ---
 
